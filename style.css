@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.container {
+  width: 1904px;
+  margin: auto; }
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px; }
+  header .container .logo {
+    width: 100px; }
+  header .container nav ul {
+    display: flex; }
+    header .container nav ul li a {
+      padding: 30px;
+      color: gray; }
+
+main .img {
+  position: relative; }
+  main .img img {
+    width: 100%; }
+  main .img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4); }
+main .txt {
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  z-index: 10; }
+  main .txt p {
+    font-size: 30px; }
+  main .txt h1 {
+    font-size: 100px; }
+main .profile {
+  position: relative;
+  top: -300px;
+  right: -50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+  height: 400px;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: #fff; }
+  main .profile .text {
+    width: 500px;
+    padding: 40px; }
+    main .profile .text h1 {
+      padding: 0 0 30px; }
+    main .profile .text p {
+      padding: 24px 0 0 0; }
+    main .profile .text .links {
+      display: flex; }
+      main .profile .text .links .list a {
+        display: block;
+        padding: 20px 20px 20px 0; }
+  main .profile .face img {
+    width: 300px;
+    border-radius: 500px; }
+
+section .container {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+  margin: 0 auto; }
+  section .container .title {
+    width: 100%;
+    text-align: center; }
+  section .container ul {
+    display: flex;
+    flex-wrap: wrap; }
+    section .container ul li {
+      margin: 10px;
+      width: 350px;
+      height: 240px;
+      background: #F00; }
+
+/*# sourceMappingURL=style.css.map */
